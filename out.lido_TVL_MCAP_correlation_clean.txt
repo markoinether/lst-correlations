@@ -1,0 +1,47 @@
+python .\lido_TVL_MCAP_correlation_clean.py
+Overall Correlation between 'Lido.5' and 'market_cap': 0.7454273564278298
+
+Quarterly Correlations:
+Quarter
+2021Q1    0.221551
+2021Q2    0.690837
+2021Q3    0.962111
+2021Q4   -0.126528
+2022Q1    0.803011
+2022Q2    0.970676
+2022Q3    0.884549
+2022Q4    0.796326
+2023Q1    0.644601
+2023Q2   -0.293443
+2023Q3    0.773664
+2023Q4    0.905820
+2024Q1    0.543021
+Freq: Q-DEC, dtype: float64
+
+Statistics for 'Lido.5':
+count    1.161000e+03
+mean     9.913616e+09
+std      6.883239e+09
+min      1.627468e+07
+25%      5.837285e+09
+50%      8.763754e+09
+75%      1.403599e+10
+max      3.881986e+10
+Name: Lido.5, dtype: float64
+
+Statistics for 'market_cap':
+count    1.161000e+03
+mean     1.002232e+09
+std      8.702184e+08
+min      2.659361e+06
+25%      1.957528e+08
+50%      8.875425e+08
+75%      1.699214e+09
+max      3.366915e+09
+Name: market_cap, dtype: float64
+
+Additional Statistics:
+Skewness for 'Lido.5': 0.9182196420221701
+Skewness for 'market_cap': 0.531449956227611
+Kurtosis for 'Lido.5': 1.3595849442270431
+Kurtosis for 'market_cap': -0.8608596556990955

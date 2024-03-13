@@ -1,0 +1,38 @@
+Overall Correlation between 'Lido.5' and 'market_cap': 0.6702654193016719
+
+Quarterly Correlations:
+Quarter
+2023Q1   -0.210486
+2023Q2   -0.293443
+2023Q3    0.773664
+2023Q4    0.905820
+2024Q1    0.497654
+Freq: Q-DEC, dtype: float64
+
+Statistics for 'Lido.5':
+count    3.660000e+02
+mean     1.603595e+10
+std      4.788382e+09
+min      8.374692e+09
+25%      1.270283e+10
+50%      1.453661e+10
+75%      1.927375e+10
+max      3.324533e+10
+Name: Lido.5, dtype: float64
+
+Statistics for 'market_cap':
+count    3.660000e+02
+mean     1.946376e+09
+std      4.638805e+08
+min      1.281753e+09
+25%      1.619829e+09
+50%      1.864790e+09
+75%      2.166680e+09
+max      3.366915e+09
+Name: market_cap, dtype: float64
+
+Additional Statistics:
+Skewness for 'Lido.5': 1.0670014886865349
+Skewness for 'market_cap': 0.795435174716574
+Kurtosis for 'Lido.5': 0.7935680797336486
+Kurtosis for 'market_cap': 0.02641814070258608
