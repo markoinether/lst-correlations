@@ -1,4 +1,4 @@
-# Observing correlations between Mcap & fundamentals of various LST protocols 
+# Modeling correlations between Mcap & fundamentals of various LST protocols 
 
   
 ## Overview
