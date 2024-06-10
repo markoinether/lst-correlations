@@ -1,17 +1,16 @@
-
 import pandas as pd
 
 # Read the CSV file
-df = pd.read_csv('rpl-usd-max.csv')
+df = pd.read_csv("stader-dllama.csv")
 
 # Convert the 'Date' column to datetime objects
-df['snapped_at'] = pd.to_datetime(df['snapped_at'])
+df["Date"] = pd.to_datetime(df["Date"], dayfirst=True)
 
 # Format the 'Date' column to the Excel-recognized format
-df['snapped_at'] = df['snapped_at'].dt.strftime('%Y-%m-%d')
+df["Date"] = df["Date"].dt.strftime("%Y-%m-%d")
 
 # Define the new file name
-new_file_name = 'rpl-usd-max_formatted.csv'
+new_file_name = "sd_formatted.csv"
 
 # Write the updated DataFrame to a new CSV file
 df.to_csv(new_file_name, index=False)

@@ -1,16 +1,16 @@
 import pandas as pd
 
 # Step 1: Initialize the name for the new file
-new_file = "rocket_combined_cg_dl_data.csv"
+new_file = "sd_combined_cg_dl_data.csv"
 
 # Step 2: Read the data from lido_formatted.csv and select required columns
-lido_df = pd.read_csv("rocket_formatted.csv")[["Date", "Rocket-TVL"]]
+lido_df = pd.read_csv("sd_formatted.csv")[["Date", "Stader-TVL-total"]]
 
 # Create a new dataframe with selected columns
 combined_df = lido_df.copy()
 
 # Step 3: Read the data from ldo-usd-max_formatted.csv
-ldo_df = pd.read_csv("rpl-usd-max_formatted.csv")
+ldo_df = pd.read_csv("sd-usd-max_formatted.csv")
 
 # Ensure the 'Date' column is in string format for proper comparison
 combined_df["Date"] = combined_df["Date"].astype(str)
